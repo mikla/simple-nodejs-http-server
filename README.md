@@ -1,4 +1,3 @@
-![](https://repository-images.githubusercontent.com/191437191/03bf1a00-f001-11e9-9009-dcd72fe7b4cc)
 # Simple Node.js® HTTP Server
 This is a simple node.js web server for serving static HTML files.
 
