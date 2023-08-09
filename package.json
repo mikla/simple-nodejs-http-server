@@ -8,5 +8,8 @@
     "start": "node server.js"
   },
   "author": "Iftakhar Hasan",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
