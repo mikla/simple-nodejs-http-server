@@ -2,14 +2,17 @@
   "name": "simple-node-http-server",
   "version": "1.0.0",
   "description": "A very simple web server for serving HTML pages",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "author": "Iftakhar Hasan",
   "license": "UNLICENSED",
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }

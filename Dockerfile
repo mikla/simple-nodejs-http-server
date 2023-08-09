@@ -3,7 +3,9 @@ FROM node:14
 WORKDIR /app
 COPY . /app
 
-RUN rm -rf /app/node_modules
+# Copy the application files into the container
+#COPY package.json package-lock.json /app/
+#COPY app.js /app/
 
 RUN npm install
 
